@@ -1,0 +1,165 @@
+:root {
+	--red: rgb(84, 35, 26);
+}
+
+* {
+	box-sizing: border-box;
+	color: white;
+	font-family: Montserrat;
+}
+
+body {
+	margin: 0;
+}
+
+body .container {
+	width: 100%;
+}
+.container header {
+	background-image: url("https://tsstechnologysg.com/wp-content/uploads/2021/05/what-is-software-development-1024x683.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+.container header .gradient_container_top {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), transparent);
+	height: 200px;
+	width: 100%;
+	position: absolute;
+}
+.container header .gradient_container_bottom {
+	background: linear-gradient(transparent, rgba(0, 0, 0, 0.6));
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+.container header .header-nav-area {
+	padding: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container header .header-nav-area #nav_container {
+	display: none;
+	justify-content: flex-end;
+}
+.container header .brand_area {
+	background: url("https://technibilt.com/wp-content/uploads/2016/09/tss-logo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 80px;
+	width: 200px;
+	z-index: 100;
+	text-indent: -999px;
+	width: 22%;
+}
+
+.container header #navigation {
+	align-items: center;
+	display: flex;
+	text-align: right;
+	margin-right: 30px;
+	z-index: 100;
+}
+
+/* Burger Menu */
+.container header .menu-icon {
+	width: 25px;
+	height: 25px;
+	background: url(https://mars.nasa.gov/assets/ui_sprite@2x.png) 0 0;
+	background-size: 300px;
+	z-index: 100;
+}
+
+/**
+Nav
+*/
+.container header nav a {
+	font-size: 0.9em;
+	font-weight: 300;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.container header .wrapper {
+	background: rgba(0, 0, 0, 0.4);
+	bottom: 30%;
+	/*   right:10%; */
+	/*     width: 530px; */
+	padding: 1.4em;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+/* article */
+header .wrapper .article h1 {
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0 auto;
+	margin-bottom: 0.4em;
+	line-height: 1.5;
+}
+
+header .wrapper .article h1 a {
+	text-decoration: none;
+}
+
+/* Arrow */
+header .wrapper .article h1 span {
+	background: url("https://mars.nasa.gov/assets/arrow_up_white_@2x.png") center
+		no-repeat;
+	position: absolute;
+	right: 0;
+	margin-top: -0.2em;
+	background-size: 12px;
+	height: 44px;
+	width: 44px;
+}
+
+header .wrapper .article h1 span.arrow.open {
+	transform: rotate(180deg);
+}
+
+header .wrapper .article .description {
+	font-weight: 300;
+	font-size: 0.9em;
+	line-height: 1.8em;
+	height: 0%;
+	max-height: 0;
+	overflow: hidden;
+}
+
+header .wrapper .article .description.open {
+	max-height: 300px;
+	overflow: hidden;
+}
+
+header .wrapper .article h1 span {
+	font-style: italic;
+	font-weight: 600;
+}
+
+header .wrapper .article h3 {
+	font-weight: 300;
+	text-align: center;
+}
+
+header .wrapper .article footer {
+	margin: 1.6em 0 0;
+	display: none;
+}
+
+header .wrapper .article footer a {
+	background-color: rgb(74, 119, 137);
+	border-radius: 3px;
+	display: inline-block;
+	padding: 9px 16px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
