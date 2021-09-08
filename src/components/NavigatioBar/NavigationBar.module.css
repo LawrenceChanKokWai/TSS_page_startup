@@ -1,0 +1,68 @@
+.NavigationBar {
+	background: rgb(0, 2, 9);
+	background: linear-gradient(
+		90deg,
+		rgba(0, 2, 9, 1) 36%,
+		rgba(93, 100, 113, 1) 100%
+	); /*set background to hex color*/
+	height: 80px; /*set height of the navigation bar*/
+	width: 100%; /*set width 100% on navigation bar */
+	position: fixed; /*fixed position even page is scroll down*/
+	z-index: 999; /*so the navigation bar will always be in-front in orientation*/
+	opacity: 0.9; /*setting transparency of range 0 to 1. */
+	display: flex; /*defining the navigation bar as a flex container */
+	justify-content: center; /*setting the tabs to the center */
+	align-items: center; /*setting the tabs to the middle of the container */
+}
+
+.NavigationBar nav ul {
+	list-style: none; /*removing the dots on the list*/
+	margin: 0; /*set margin to origin*/
+	padding: 0; /*set padding to origin*/
+}
+.NavigationBar nav ul li {
+	display: inline-block; /*set bar of list in line*/
+	margin: 1.5vw; /*with padding space apart of 20px*/
+}
+.NavigationBar nav ul li a {
+	color: white; /*set color of text to white*/
+	text-decoration: none; /*removing of underline link*/
+}
+.NavigationBar a:hover {
+	border-bottom: 5px solid #8c1cd1; /*placing a hover effect on navigation bar*/
+}
+
+.NavigationBar .MobileNavigation {
+	display: none;
+}
+@media (max-width: 990px) {
+	.NavigationBar .Navigation {
+		display: none;
+	}
+	.NavigationBar .MobileNavigation {
+		display: flex;
+		align-items: center;
+	}
+	.NavigationBar .MobileNavigation .Hamburger {
+		position: absolute;
+		right: 5%;
+		cursor: pointer;
+	}
+	.NavigationBar nav ul {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 80px;
+		right: 0;
+		width: 100%;
+		border-top: 2px solid #8c1cd1;
+		background: #181818;
+	}
+	.NavigationBar nav ul li {
+		padding-left: 15%;
+	}
+	.NavigationBar a:hover {
+		border-bottom: none;
+		color: red;
+	}
+}

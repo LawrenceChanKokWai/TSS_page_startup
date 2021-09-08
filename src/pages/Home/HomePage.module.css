@@ -1,0 +1,39 @@
+.HomePage {
+	background: rgb(0, 2, 9);
+	background: linear-gradient(
+		90deg,
+		rgba(0, 2, 9, 1) 36%,
+		rgba(93, 100, 113, 1) 100%
+	);
+	display: flex;
+	height: 85vh;
+	padding: 80px;
+	position: relative;
+}
+.HomePage .Container h1 {
+	margin: 0;
+}
+.HomePage .Container {
+	position: absolute;
+	top: 15%;
+	left: 2%;
+	color: white;
+}
+.HomePage .Container .Intro {
+	font-size: 4.3rem;
+}
+
+.HomePage .Code {
+	width: 20%;
+	max-width: 150px;
+	position: absolute;
+	bottom: 0;
+	left: 2%;
+}
+.HomePage .BinaryGlobe {
+	width: 60%;
+	max-width: 500px;
+	position: absolute;
+	right: 10%;
+	top: 25%;
+}
