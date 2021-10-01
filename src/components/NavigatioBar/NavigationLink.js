@@ -36,6 +36,15 @@ const NavigationLink = (props) => {
 			<motion.li
 				initial={fromAnimate}
 				animate={toAnimate}
+				transition={{ delay: 0.2 }}
+				onClick={() => props.isMobile && props.mobileMenuClose()}
+			>
+				<a href="/#quiz">Proctored Exam</a>
+			</motion.li>
+
+			<motion.li
+				initial={fromAnimate}
+				animate={toAnimate}
 				transition={{ delay: 0.3 }}
 				onClick={() => props.isMobile && props.mobileMenuClose()}
 			>
@@ -57,7 +66,7 @@ const NavigationLink = (props) => {
 				transition={{ delay: 0.5 }}
 				onClick={() => props.isMobile && props.mobileMenuClose()}
 			>
-				<a href="/#employment">Employment</a>
+				<a href="/#employment">Job Portal</a>
 			</motion.li>
 		</ul>
 	);

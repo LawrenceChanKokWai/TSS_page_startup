@@ -8,6 +8,13 @@ const EmploymentPage = () => {
 		<div className={classes.Employment} id="employment">
 			<PageHeader title={"Employment"} />
 			<div className={classes.Container}>
+				<div className={classes.EmploymentPhoto}>
+					<img
+						className={classes.employment}
+						src={employmentPhoto}
+						alt="EmploymentPhoto"
+					></img>
+				</div>
 				<div className={classes.Text}>
 					<h2>Employment</h2>
 					<p>
@@ -15,14 +22,7 @@ const EmploymentPage = () => {
 						seekers who ask employers why they weren't hired often hear those
 						words. Best fit? Find your best fit here.
 					</p>
-					<CustomButton href="https://sg.jobsdb.com/">find now</CustomButton>
-				</div>
-				<div className={classes.EmploymentPhoto}>
-					<img
-						className={classes.employment}
-						src={employmentPhoto}
-						alt="EmploymentPhoto"
-					></img>
+					<CustomButton href="http://jobportalsg.com/">find now</CustomButton>
 				</div>
 			</div>
 		</div>

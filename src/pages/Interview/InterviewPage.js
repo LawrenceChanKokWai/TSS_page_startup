@@ -9,13 +9,6 @@ const InterviewPage = () => {
 			<PageHeader title={"Interview"} />
 
 			<div className={classes.Container}>
-				<div className={classes.InterviewPhoto}>
-					<img
-						className={classes.interview}
-						src={interviewphoto}
-						alt="InterviewPhoto"
-					></img>
-				</div>
 				<div className={classes.Text}>
 					<h2>Interview</h2>
 					<p>
@@ -24,6 +17,13 @@ const InterviewPage = () => {
 						your interview.
 					</p>
 					<CustomButton href="https://zoom.us/">link me up</CustomButton>
+				</div>
+				<div className={classes.InterviewPhoto}>
+					<img
+						className={classes.interview}
+						src={interviewphoto}
+						alt="InterviewPhoto"
+					></img>
 				</div>
 			</div>
 		</div>
