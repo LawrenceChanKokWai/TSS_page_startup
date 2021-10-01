@@ -39,7 +39,7 @@ const NavigationLink = (props) => {
 				transition={{ delay: 0.2 }}
 				onClick={() => props.isMobile && props.mobileMenuClose()}
 			>
-				<a href="/#quiz">Proctored Exam</a>
+				<a href="/#exam">Proctored Exam</a>
 			</motion.li>
 
 			<motion.li
