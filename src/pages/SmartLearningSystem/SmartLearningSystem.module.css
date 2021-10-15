@@ -1,0 +1,43 @@
+.SmartLearningSystem {
+	background: rgb(0, 2, 9);
+	background: linear-gradient(
+		90deg,
+		rgba(0, 2, 9, 1) 36%,
+		rgba(93, 100, 113, 1) 100%
+	);
+	padding-bottom: 5%;
+}
+.SmartLearningSystem .Container {
+	display: flex;
+}
+.SmartLearningSystem .Container .Text {
+	width: 45%;
+	margin-left: 3%;
+}
+.SmartLearningSystem .Container .Text h2 {
+	font-weight: 900;
+}
+.SmartLearningSystem .Container .SmartPhoto {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.SmartLearningSystem .Container .SmartPhoto .smart {
+	width: 90%;
+	max-width: 500px;
+	border-radius: 10%;
+}
+@media (max-width: 500px) {
+	.SmartLearningSystem .Container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.SmartLearningSystem .Container .Text {
+		width: 80%;
+	}
+	.SmartLearningSystem .Container .SmartPhoto {
+		width: 70%;
+	}
+}

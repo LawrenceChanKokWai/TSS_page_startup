@@ -6,6 +6,7 @@ import ProgrammingPage from "./pages/Programming/ProgrammingPage";
 import InterviewPage from "./pages/Interview/InterviewPage";
 import EmploymentPage from "./pages/Employment/EmploymentPage";
 import HomePage from "./pages/Home/HomePage";
+import SmartLearningSystem from "./pages/SmartLearningSystem/SmartLearningSystem";
 
 const App = () => {
 	return (
@@ -18,6 +19,7 @@ const App = () => {
 			<ProgrammingPage />
 			<InterviewPage />
 			<EmploymentPage />
+			<SmartLearningSystem />
 		</div>
 	);
 };
