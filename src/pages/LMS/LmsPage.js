@@ -17,7 +17,7 @@ const LmsPage = () => {
 						with details, and then tag the Workplace posts with the modules to
 						make the course more structured.
 					</p>
-					<CustomButton href="https://login.microsoftonline.com/c00d4c1b-cf7b-4e93-b7c7-10113a9bc230/oauth2/v2.0/authorize?response_type=code&client_id=7b890b34-afff-4547-9754-0e0bdc2df3a2&redirect_uri=https%3A%2F%2Fmymurdoch.murdoch.edu.au%2Fcmauth%2Foauth%2Fcallback&scope=openid+profile+email+offline_access+api%3A%2F%2Fmurdoch.edu.au%2Fcampusm%2F.default&state=vrac30v5rgqibp2p86eup3irqn">
+					<CustomButton href="http://academy.tssadvsolutions.com/">
 						Click me
 					</CustomButton>
 				</div>

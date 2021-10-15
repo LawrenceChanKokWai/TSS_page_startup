@@ -19,7 +19,7 @@ const QuizPage = () => {
 						both. Multiple question types, like – free text, MCQs, True/False,
 						etc. can be added.
 					</p>
-					<CustomButton href="https://www.youtube.com/watch?v=BZqzhmlTkAc">
+					<CustomButton href="http://18.136.105.215/mod/quiz/view.php?id=384">
 						start
 					</CustomButton>
 				</div>

@@ -68,15 +68,6 @@ const NavigationLink = (props) => {
 			>
 				<a href="/#employment">Job Portal</a>
 			</motion.li>
-
-			<motion.li
-				initial={fromAnimate}
-				animate={toAnimate}
-				transition={{ delay: 0.5 }}
-				onClick={() => props.isMobile && props.mobileMenuClose()}
-			>
-				<a href="/#smart">Smart Learn</a>
-			</motion.li>
 		</ul>
 	);
 };

@@ -22,7 +22,7 @@ const ProgrammingPage = () => {
 						used in computer programming to implement algorithms. Start Learning
 						new skills now.
 					</p>
-					<CustomButton href="http://tsslearn.com/">start</CustomButton>
+					<CustomButton href="http://biuprogramming.s3-website-ap-southeast-1.amazonaws.com/">start</CustomButton>
 				</div>
 			</div>
 		</div>
